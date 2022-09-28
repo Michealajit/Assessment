@@ -15,7 +15,7 @@ export default function Document() {
     <meta name="author" content=""/>
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="canonical" href="https://accedere.io/index.html" />
-    <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"/>
+    {/* <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"/> */}
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css"/>
     <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css"/>
