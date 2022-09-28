@@ -3,7 +3,7 @@ import fetch from 'isomorphic-unfetch'
 import { useRouter } from 'next/router';
 import Link  from "next/link";
 
-const updateblog = ({blog}) => {
+const Updateblog = ({blog}) => {
     const router = useRouter();
     useEffect(() => {
         if (!localStorage.getItem( "assessment")) {
@@ -161,11 +161,11 @@ marginBottom:50
   </div>
   )
 }
-updateblog.getInitialProps = async ({ query: { id } }) => {
+Updateblog.getInitialProps = async ({ query: { id } }) => {
     const res = await fetch(`http://localhost:3000/api/blog/${id}`);
     const { data } = await res.json();
     const {inputs} =data
     return { blog: inputs }
 }
 
-export default updateblog
+export default Updateblog

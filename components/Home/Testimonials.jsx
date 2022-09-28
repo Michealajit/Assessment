@@ -25,7 +25,7 @@ export const Testimonials = () => {
             <h2 className="text-primary"> <span className="font-weight-semi-bold"> Our Client Testimonials</span></h2>
         </div>
         
-        <div class="bg-img-hero" style={{backgroundImage: "url(images/bg-testimonial-new.jpg)"}}>
+        <div className="bg-img-hero" style={{backgroundImage: "url(images/bg-testimonial-new.jpg)"}}>
         {/* style={{backgroundImage: url(images/bg-testimonial.jpg)}} */}
             <div className="container">
                 <div className="row">

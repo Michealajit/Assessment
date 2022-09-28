@@ -1,4 +1,5 @@
-import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -10,22 +11,20 @@ const Footer = () => {
                 <div className="col-md-4 col-lg-3 mb-7 mb-lg-0">
                     <div className="d-inline-flex align-self-start flex-column h-100">
                        
-                        <a className="d-flex align-items-center mb-3" href="index"> <img width="200" src="https://accedere.io/images/logo-accedere-white.png" alt="Accedere"/> </a>
+                        <Link className="d-flex align-items-center mb-3" href="/"><img width="200" src="https://accedere.io/images/logo-accedere-white.png" alt="Accedere"/></Link>
                         
                         <ul className="footer-social">
 
                             <li>
-                                <a href="https://www.linkedin.com/company/31540738/">
-                                    <i className="fab wp-icon fa-linkedin fa-lg"></i>
-                                </a>
+                                <Link href="https://www.linkedin.com/company/31540738/"><i className="fab wp-icon fa-linkedin fa-lg"></i>
+                                </Link>
                             </li>
 
 
 
                             <li>
-                                <a href="https://www.youtube.com/channel/UC2VvHmtB5RneZ0_ai0PxGbQ">
-                                    <i className="fab wp-icon fa-youtube fa-lg"></i>
-                                </a>
+                                <Link href="https://www.youtube.com/channel/UC2VvHmtB5RneZ0_ai0PxGbQ"><i className="fab wp-icon fa-youtube fa-lg"></i>
+                                </Link>
                             </li>
 
                         </ul>
@@ -76,15 +75,15 @@ const Footer = () => {
             
             <ul className="list-inline mb-0 footer-social">
                 <li className="list-inline-item">
-                    <p className="text-white mb-0"><a className="small text-white" href="investor.html">Investor Services</a></p>
+                    <p className="text-white mb-0"><Link className="small text-white" href="investor.html">Investor Services</Link></p>
                 </li>
             </ul>
 			
-    <a className="small text-white" href="/">Home</a> | <a className="small text-white"  href="/">SOC Compaliance 
-    Software</a> | <a className="small text-white" href="/">ISO Certification</a> 
-    | <a className="small text-white" href="/">Cloud Security Audit</a> | <a className="small text-white" href="/">Accedere.io</a> 
-    | <a className="small text-white" href="/">SOC2 Type 2 Compliance</a> | <a className="small text-white" href="/">SOC 
-    1 Type 2 Testing</a> 
+    <Link className="small text-white" href="/">Home</Link> | <Link className="small text-white"  href="/">SOC Compaliance 
+    Software</Link> | <Link className="small text-white" href="/">ISO Certification</Link> 
+    | <Link className="small text-white" href="/">Cloud Security Audit</Link> | <Link className="small text-white" href="/">Accedere.io</Link> 
+    | <Link className="small text-white" href="/">SOC2 Type 2 Compliance</Link> | <Link className="small text-white" href="/">SOC 
+    1 Type 2 Testing</Link> 
    
   </div>
     </div>

@@ -1,4 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/Script';
 
 export default function Document() {
   return (
@@ -9,7 +10,7 @@ export default function Document() {
     <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>SOC 1,2,3 Compliance,SSAE 18 Audit,SOC 2 Type 2,ISAE 3000-3402,Cloud Security,ISO/IEC 27xxx Audits</title>
-    <meta name="description" content="SOC Compliance, SOC 2 Auditors, SSAE 18, SSAE 16, SAS 70, SOC Auditor, SOC 1 Report, SOC 2 Audit Certification,ISMS PIMS Auditor"/>
+    <meta name="deScription" content="SOC Compliance, SOC 2 Auditors, SSAE 18, SSAE 16, SAS 70, SOC Auditor, SOC 1 Report, SOC 2 Audit Certification,ISMS PIMS Auditor"/>
     <meta name="keywords" content="SOC 2 Type 2, SSAE 16 compliance, AICPA SOC Reports, SOC 2 Audit Report, SOC Auditor, SOC 2 for cloud,SOC 1 Audit,SOX compliance, SOX compliance with SOC 2,SAS 70, SOC 1 vs SOC 2,SOC 2 vs ISAE 3000,SOC 1 vs ISAE3402,SOC Auditor,SAS 70 Auditor,SSAE 18 vs SSAE 16,SOC vs SOX Auditor,SOC 1 Certification,SOC 2 Certification,System and Organization Controls (SOC),AT-C 320,AT-C 205 SOC 2,AT 101,SOC2 for Privacy,SOC for Cloud Security,SSAE 16 vs SAS 70,SOC 2 Audit,SOC 2 Bridge Letter, GDPR Auditor, CCPA Auditor, Privacy Auditor, SOC 2 for Vendor-Third-Party Audit, Cloud CCSK, Cloud CCAK, CCM 4, CCAK, SOC carve-out, SOC Carve in, SOC for Supply Chain, ISO 27000 PDF,ISO 27701, ISO 27001, ISO 27017, ISO 27018, SOC VS ISO, SOC 2 VS ISO 27xxx, AICPA GAPP, AICPA PMF, AICPA Privacy Management Framework, ISO 27001 Certification Body"/>
     <meta name="author" content=""/>
     <link rel="icon" href="images/favicon.ico"/>
@@ -25,8 +26,8 @@ export default function Document() {
     <link rel="stylesheet" href="css/theme.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150997635-1"/>
-    {/* <script>
+    <Script  src="https://www.googletagmanager.com/gtag/js?id=UA-150997635-1"/>
+    {/* <Script>
         {(window.dataLayer = window.dataLayer || [];
 
         function gtag() {
@@ -35,37 +36,37 @@ export default function Document() {
         gtag('js', new Date());
         gtag('config', 'UA-150997635-1');)
         }
-    </script> */}
+     */}
       </Head>
 
       <body>
         <Main />
         <NextScript />
-        <script src="./../public/assets/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="./../public/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-    <script src="./../public/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-    <script src="./../public/assets/vendor/bootstrap/bootstrap.min.js"></script>
+        <Script src="./../public/assets/vendor/jquery/dist/jquery.min.js" ></Script>
+    <Script src="./../public/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js" ></Script>
+    <Script src="./../public/assets/vendor/popper.js/dist/umd/popper.min.js" ></Script>
+    <Script src="./../public/assets/vendor/bootstrap/bootstrap.min.js" ></Script>
     
-    <script src="./../public/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="./../public/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-    <script src="./../public/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-    <script src="./../public/assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="./../public/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="./../public/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <Script src="./../public/assets/vendor/hs-megamenu/src/hs.megamenu.js" ></Script>
+    <Script src="./../public/assets/vendor/svg-injector/dist/svg-injector.min.js" ></Script>
+    <Script src="./../public/assets/vendor/fancybox/jquery.fancybox.min.js" ></Script>
+    <Script src="./../public/assets/vendor/slick-carousel/slick/slick.js" ></Script>
+    <Script src="./../public/assets/vendor/jquery-validation/dist/jquery.validate.min.js" ></Script>
+    <Script src="./../public/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js" ></Script>
     
-    <script src="./../public/assets/js/hs.core.js"></script>
-    <script src="./../public/assets/js/components/hs.header.js"></script>
-    <script src="./../public/assets/js/components/hs.unfold.js"></script>
-    <script src="./../public/assets/js/components/hs.fancybox.js"></script>
-    <script src="./../public/assets/js/components/hs.slick-carousel.js"></script>
-    <script src="./../public/assets/js/components/hs.validation.js"></script>
-    <script src="./../public/assets/js/components/hs.focus-state.js"></script>
-    <script src="./../public/assets/js/components/hs.cubeportfolio.js"></script>
-    <script src="./../public/assets/js/components/hs.svg-injector.js"></script>
-    <script src="./../public/assets/js/components/hs.go-to.js"></script>
-    <script src="./../public/assets/js/script.js"></script>
+    <Script src="./../public/assets/js/hs.core.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.header.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.unfold.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.fancybox.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.slick-carousel.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.validation.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.focus-state.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.cubeportfolio.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.svg-injector.js" ></Script>
+    <Script src="./../public/assets/js/components/hs.go-to.js" ></Script>
+    <Script src="./../public/assets/js/Script.js" ></Script>
     
-    <script>
+    {/* <Script> */}
        {/* { $(window).on('load', function() {
             // initialization of HSMegaMenu component
             $('.js-mega-menu').HSMegaMenu({
@@ -95,19 +96,19 @@ export default function Document() {
             // initialization of go to
             $.HSCore.components.HSGoTo.init('.js-go-to');
         })} */}
-    </script>
+    
 
     
-    <script type="text/javascript" charSet="UTF-8" src="http://chs03.cookie-script.com/s/0ddc6bf06d824fba8921a6be3f8e16ea.js"></script>
+    <Script type="text/javaScript" charSet="UTF-8" src="http://chs03.cookie-Script.com/s/0ddc6bf06d824fba8921a6be3f8e16ea.js" ></Script>
     <link
-    async
+    
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
   />
-  <script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js"></script>
+  <Script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js" >
+</Script>
 
-
-  <script src="like_button.js"></script>
+  <Script src="like_button.js" ></Script>
    
       </body>
     </Html>

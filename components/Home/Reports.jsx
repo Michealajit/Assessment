@@ -11,7 +11,7 @@ export const Reports = () => {
                                
                                 <div className="mb-2">
                                     <p>Outsourcing in on the rise despite increasing cybersecurity and privacy concerns and data breaches. In today’s challenging world of Blockchain, AI, IoT, and Cloud, we need to be a step ahead of your competitors. Think of the <a href="https://www.aicpa.org/soc.html">AICPA</a>                                        SOC report, also known as the SSAE 18, SOC compliance report as your company’s “Security Best Practices”. You need to demonstrate a level of confidence that your organization can mange your clients’ most confidential
-                                        and valuable information, have the procedures and controls in place to provide the required assurance. SOC now stands for "System and Organization Controls" formerly known as "Service Organization Controls". SSAE
+                                        and valuable information, have the procedures and controls in place to provide the required assurance. SOC now stands for &quot;System and Organization Controls`&quot; formerly known as `&quot;Service Organization Controls`&quot;. SSAE
                                         18 (formerly SSAE 16), SOC compliance reports are often used for Vendor Risk Management and for SOX compliance such as SOX 404. SOC 2 Type 2 or SOC 1 Type 2 attest or examination reports are sometime referred to
                                         SOC Certification by clients. SOC 1 Type 2 and SOC 2 Type 2 reports provides the much needed assurance on operative effectiveness of third-party controls. In comparison to <a href="iso-certification-services.html">ISO/IEC 27001 certification</a>                                        audit, the SOC report provides a details of the applicable controls Vs an ISO/IEC 27000 certificate that has no details of controls. The new ISO/IEC 27002:2022 has recently been announced and will define the upcoming ISO/IEC 27001 standard.</p>
                                 </div>
@@ -91,7 +91,7 @@ export const Reports = () => {
           complexity of the issue. Privacy laws are being enforced that lead to
           heavy fines or penalties. SSAE 18 (formerly SSAE 16), SOC 2 compliance
           audits are now commonly used for Cloud Data Security & Privacy controls
-          such as the CSA's Cloud Control Matrix (latest CCM 4) that also covers
+          such as the CSA&apos;s Cloud Control Matrix (latest CCM 4) that also covers
           some GDPR controls. Our SOC 2 Type 2 for <a href="https://accedere.io/cloud-security-assessment.html">cloud
           security</a> compliance or attest reports can also cover the C5 cloud
           standard. A SOC 2 compliance for privacy covers the TSC-Trust Services
@@ -115,15 +115,15 @@ export const Reports = () => {
             <p>Earlier known as SAS 70 reports, then SSAE 16 and now SSAE 18,
               these SOC compliance reports are being used for several years for
               internal controls, security, processing integrity and SOX compliance.
-              The SSAE 18 Auditor or SOC Auditor is also known as a "Service Auditor".
+              The SSAE 18 Auditor or SOC Auditor is also known as a &quot;Service Auditor&quot;.
               The SOC 1 compliance report mirrors the ISAE 3402 and SOC 2 compliance
               report mirrors ISAE 3000. The SSAE 18, SOC Auditor can issue a joint
               SOC and ISAE report. SSAE stands for Statement on Standards for
               Attest Engagements. SSAE 18 is the new standard for all SOC reports.
               In fact all SSAE including SSAE 16 got merged in the SSAE 18 standard.
               So we cannot compare SSAE 16 vs SSAE 18. A SOC compliance report
-              is technically an "Attest Report". The "SOC Certification Audit"
-              is a " SSAE 18 SOC Attest Report", SOC 1 Type 1 or Type 2 or SOC
+              is technically an &quot;Attest Report&quot;. The &quot;SOC Certification Audit&quot;
+              is a  &quot;SSAE 18 SOC Attest Report&quot;, SOC 1 Type 1 or Type 2 or SOC
               2 Type 1or Type 2 for a vendor or third-party or SOX compliance.
               <strong>A Type 2 SOC 2 compliance software</strong> is valid for
               minimum 6 months to a maximum of 12 months. For the misisng period,
@@ -158,7 +158,7 @@ export const Reports = () => {
               report refers to the operating effectiveness over a period of time.
               The Trust Services Privacy Category were formerly known as the Generally
               Accepted Privacy Principles (GAPP) by AICPA. In comparison the <a href="iso-certification-services.html">ISO/IEC
-              27001 certification</a> audit is based on the entity's ISMS and
+              27001 certification</a> audit is based on the entity&apos;s ISMS and
               does not have such distinction for data. ISO/IEC manages Privacy
               with 27701.</p>
                                 </div>
