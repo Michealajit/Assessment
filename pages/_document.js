@@ -26,7 +26,7 @@ export default function Document() {
     <link rel="stylesheet" href="css/theme.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     
-    <Script  src="https://www.googletagmanager.com/gtag/js?id=UA-150997635-1"/>
+    <Script id='google-manager' src="https://www.googletagmanager.com/gtag/js?id=UA-150997635-1"/>
     {/* <Script>
         {(window.dataLayer = window.dataLayer || [];
 
@@ -42,29 +42,29 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script src="./../public/assets/vendor/jquery/dist/jquery.min.js" ></Script>
-    <Script src="./../public/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js" ></Script>
-    <Script src="./../public/assets/vendor/popper.js/dist/umd/popper.min.js" ></Script>
-    <Script src="./../public/assets/vendor/bootstrap/bootstrap.min.js" ></Script>
+        <Script id='1' src="./../public/assets/vendor/jquery/dist/jquery.min.js" ></Script>
+    <Script id='2' src="./../public/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js" ></Script>
+    <Script id='3' src="./../public/assets/vendor/popper.js/dist/umd/popper.min.js" ></Script>
+    <Script id='4' src="./../public/assets/vendor/bootstrap/bootstrap.min.js" ></Script>
     
-    <Script src="./../public/assets/vendor/hs-megamenu/src/hs.megamenu.js" ></Script>
-    <Script src="./../public/assets/vendor/svg-injector/dist/svg-injector.min.js" ></Script>
-    <Script src="./../public/assets/vendor/fancybox/jquery.fancybox.min.js" ></Script>
-    <Script src="./../public/assets/vendor/slick-carousel/slick/slick.js" ></Script>
-    <Script src="./../public/assets/vendor/jquery-validation/dist/jquery.validate.min.js" ></Script>
-    <Script src="./../public/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js" ></Script>
+    <Script id='5' src="./../public/assets/vendor/hs-megamenu/id='' src/hs.megamenu.js" ></Script>
+    <Script id='6' src="./../public/assets/vendor/svg-injector/dist/svg-injector.min.js" ></Script>
+    <Script id='7' src="./../public/assets/vendor/fancybox/jquery.fancybox.min.js" ></Script>
+    <Script id='8' src="./../public/assets/vendor/slick-carousel/slick/slick.js" ></Script>
+    <Script id='9' src="./../public/assets/vendor/jquery-validation/dist/jquery.validate.min.js" ></Script>
+    <Script id='10' src="./../public/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js" ></Script>
     
-    <Script src="./../public/assets/js/hs.core.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.header.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.unfold.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.fancybox.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.slick-carousel.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.validation.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.focus-state.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.cubeportfolio.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.svg-injector.js" ></Script>
-    <Script src="./../public/assets/js/components/hs.go-to.js" ></Script>
-    <Script src="./../public/assets/js/Script.js" ></Script>
+    <Script id='11' src="./../public/assets/js/hs.core.js" ></Script>
+    <Script id='12' src="./../public/assets/js/components/hs.header.js" ></Script>
+    <Script id='13' src="./../public/assets/js/components/hs.unfold.js" ></Script>
+    <Script id='14' src="./../public/assets/js/components/hs.fancybox.js" ></Script>
+    <Script id='15' src="./../public/assets/js/components/hs.slick-carousel.js" ></Script>
+    <Script id='16' src="./../public/assets/js/components/hs.validation.js" ></Script>
+    <Script id='17' src="./../public/assets/js/components/hs.focus-state.js" ></Script>
+    <Script id='18' src="./../public/assets/js/components/hs.cubeportfolio.js" ></Script>
+    <Script id='19' src="./../public/assets/js/components/hs.svg-injector.js" ></Script>
+    <Script id='20' src="./../public/assets/js/components/hs.go-to.js" ></Script>
+    <Script id='21' src="./../public/assets/js/Script.js" ></Script>
     
     {/* <Script> */}
        {/* { $(window).on('load', function() {
@@ -99,16 +99,16 @@ export default function Document() {
     
 
     
-    <Script type="text/javaScript" charSet="UTF-8" src="http://chs03.cookie-Script.com/s/0ddc6bf06d824fba8921a6be3f8e16ea.js" ></Script>
+    <Script id='22' type="text/javaScript" charSet="UTF-8" src="http://chs03.cookie-Script.com/s/0ddc6bf06d824fba8921a6be3f8e16ea.js" ></Script>
     <link
     
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/semantic-ui@2/dist/semantic.min.css"
   />
-  <Script src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js" >
+  <Script id='23' src="https://cdn.jsdelivr.net/npm/semantic-ui-react/dist/umd/semantic-ui-react.min.js" >
 </Script>
 
-  <Script src="like_button.js" ></Script>
+  <Script id='24' src="like_button.js" ></Script>
    
       </body>
     </Html>
