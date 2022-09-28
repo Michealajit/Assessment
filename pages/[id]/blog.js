@@ -123,7 +123,7 @@ const blogs = ({blog}) => {
 }
 
 blogs.getInitialProps = async ({ query: { id } }) => {
-    const res = await fetch(`https://assessment-ny3b-f358af8nt-michealajit.vercel.app/api/blog/${id}`);
+    const res = await fetch(`https://assessment-micheal.vercel.app/api/blog/${id}`);
     const { data } = await res.json();
     const {inputs} =data
 

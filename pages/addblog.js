@@ -14,7 +14,7 @@ import Link  from "next/link";
     const  handleClick = async ()=>{
       try {
         const blog = {inputs};
-        const res = await fetch('https://assessment-ny3b-f358af8nt-michealajit.vercel.app/api/blog', {
+        const res = await fetch('https://assessment-micheal.vercel.app/api/blog', {
             method: 'POST',
             headers: {
                 "Accept": "application/json",
@@ -42,7 +42,7 @@ import Link  from "next/link";
           const handleDelete = async (id) => {
            
             try {
-                await fetch(`https://assessment-ny3b-f358af8nt-michealajit.vercel.app/api/blog/${id}`, {
+                await fetch(`https://assessment-micheal.vercel.app/api/blog/${id}`, {
                     method: "Delete"
                 });
     
@@ -194,7 +194,7 @@ marginBottom:50
 }
 
 Addblog.getInitialProps = async () => {
-  const res = await fetch('https://assessment-ny3b-f358af8nt-michealajit.vercel.app/api/blog');
+  const res = await fetch('https://assessment-micheal.vercel.app/api/blog');
   const { data } = await res.json();
 
 

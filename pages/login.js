@@ -16,7 +16,7 @@ import fetch from 'isomorphic-unfetch'
         e.preventDefault(); 
         try {
             const data = {username,password}
-            const res = await fetch('https://assessment-ny3b-f358af8nt-michealajit.vercel.app/api/user', {
+            const res = await fetch('https://assessment-micheal.vercel.app/api/user', {
                 method: 'POST',
                 headers: {
                     "Accept": "application/json",
