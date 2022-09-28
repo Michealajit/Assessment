@@ -87,7 +87,7 @@ const blog = ({blogs}) => {
 }
 
 blog.getInitialProps = async () => {
-    const res = await fetch('https://assessment-ny3b-f358af8nt-michealajit.vercel.app/api/blog');
+    const res = await fetch('https://assessment-micheal.vercel.app/api/blog');
     const { data } = await res.json();
  
   
