@@ -15,7 +15,7 @@ export default function Document() {
     <meta name="author" content=""/>
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="canonical" href="https://accedere.io/index.html" />
-    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css"/>
     <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css"/>
@@ -99,7 +99,7 @@ export default function Document() {
     
 
     
-    <Script id='22' type="text/javaScript" charSet="UTF-8" src="http://chs03.cookie-Script.com/s/0ddc6bf06d824fba8921a6be3f8e16ea.js" ></Script>
+    <Script id='22' type="text/javaScript" charSet="UTF-8" src="https://chs03.cookie-Script.com/s/0ddc6bf06d824fba8921a6be3f8e16ea.js" ></Script>
     <link
     
     rel="stylesheet"
