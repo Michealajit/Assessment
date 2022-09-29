@@ -14,7 +14,7 @@ import Link  from "next/link";
     const  handleClick = async ()=>{
       try {
         const blog = {inputs};
-        const res = await fetch('https://assessment-micheal.vercel.app/api/blog', {
+        const res = await fetch('https://master.d3cqvnrkangbin.amplifyapp.com/api/blog', {
             method: 'POST',
             headers: {
                 "Accept": "application/json",
@@ -42,7 +42,7 @@ import Link  from "next/link";
           const handleDelete = async (id) => {
            
             try {
-                await fetch(`https://assessment-micheal.vercel.app/api/blog/${id}`, {
+                await fetch(`https://master.d3cqvnrkangbin.amplifyapp.com/api/blog/${id}`, {
                     method: "Delete"
                 });
     
@@ -194,7 +194,7 @@ marginBottom:50
 }
 
 Addblog.getInitialProps = async () => {
-  const res = await fetch('https://assessment-micheal.vercel.app/api/blog');
+  const res = await fetch('https://master.d3cqvnrkangbin.amplifyapp.com/api/blog');
   const { data } = await res.json();
 
 

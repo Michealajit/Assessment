@@ -123,7 +123,7 @@ const blogs = ({blog}) => {
 }
 
 blogs.getInitialProps = async ({ query: { id } }) => {
-    const res = await fetch(`https://assessment-micheal.vercel.app/api/blog/${id}`);
+    const res = await fetch(`https://master.d3cqvnrkangbin.amplifyapp.com/api/blog/${id}`);
     const { data } = await res.json();
     const {inputs} =data
 
