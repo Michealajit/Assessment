@@ -51,7 +51,7 @@ const Updateblog = ({blog}) => {
         try {
           const blog = {inputs};
           const id = router.query.id;
-          await fetch(`https://assessment-micheal.vercel.app/api/blog/${id}`, {
+          await fetch(`https://master.d3cqvnrkangbin.amplifyapp.com/api/blog/${id}`, {
               method: 'PUT',
               headers: {
                   "Accept": "application/json",
@@ -162,7 +162,7 @@ marginBottom:50
   )
 }
 Updateblog.getInitialProps = async ({ query: { id } }) => {
-    const res = await fetch(`https://assessment-micheal.vercel.app/api/blog/${id}`);
+    const res = await fetch(`https://master.d3cqvnrkangbin.amplifyapp.com/api/blog/${id}`);
     const { data } = await res.json();
     const {inputs} =data
     return { blog: inputs }
